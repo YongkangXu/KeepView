@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CourseHeaderCountCell" customModule="MagicApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="65" height="235"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="65" height="235"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今日" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4YQ-G8-mcQ">
+                        <rect key="frame" x="20" y="10" width="25" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12次" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jdt-Ca-rTg">
+                        <rect key="frame" x="20" y="213.5" width="25.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8UH-RI-lz6" userLabel="lineView">
+                        <rect key="frame" x="32.5" y="40" width="0.5" height="167.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="0.5" id="e8n-6T-VxM"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wlZ-hW-GPK">
+                        <rect key="frame" x="12.5" y="60" width="40" height="175"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="1Hy-qo-cr3"/>
+                            <constraint firstAttribute="height" constant="175" id="Wtj-hG-PUA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="4YQ-G8-mcQ" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="2OO-vM-IpO"/>
+                <constraint firstAttribute="bottom" secondItem="Jdt-Ca-rTg" secondAttribute="bottom" constant="7" id="6WN-V8-Lwg"/>
+                <constraint firstItem="Jdt-Ca-rTg" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="E7s-hU-c8Q"/>
+                <constraint firstItem="wlZ-hW-GPK" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Ibj-3V-KwE"/>
+                <constraint firstAttribute="bottom" secondItem="wlZ-hW-GPK" secondAttribute="bottom" id="Ivb-ZP-WH1"/>
+                <constraint firstItem="8UH-RI-lz6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="40" id="LDZ-YY-sz6"/>
+                <constraint firstItem="8UH-RI-lz6" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="dAw-uq-3BQ"/>
+                <constraint firstItem="Jdt-Ca-rTg" firstAttribute="top" secondItem="8UH-RI-lz6" secondAttribute="bottom" constant="6" id="wiC-4E-lZV"/>
+                <constraint firstItem="4YQ-G8-mcQ" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="zER-24-mht"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="65" height="235"/>
+            <connections>
+                <outlet property="contContainView" destination="wlZ-hW-GPK" id="5WN-rZ-naf"/>
+                <outlet property="countLbl" destination="Jdt-Ca-rTg" id="op9-10-AEx"/>
+                <outlet property="heightForCount" destination="Wtj-hG-PUA" id="OK3-Gq-Jt5"/>
+                <outlet property="lineView" destination="8UH-RI-lz6" id="lcQ-rj-nvo"/>
+                <outlet property="titleLbl" destination="4YQ-G8-mcQ" id="qs9-xI-u91"/>
+            </connections>
+            <point key="canvasLocation" x="144.80000000000001" y="116.49175412293854"/>
+        </collectionViewCell>
+    </objects>
+</document>

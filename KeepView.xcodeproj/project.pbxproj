@@ -14,6 +14,16 @@
 		F58580D521C779D4009B3283 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58580D321C779D4009B3283 /* LaunchScreen.storyboard */; };
 		F58580E021C779D4009B3283 /* KeepViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58580DF21C779D4009B3283 /* KeepViewTests.swift */; };
 		F58580EB21C779D4009B3283 /* KeepViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58580EA21C779D4009B3283 /* KeepViewUITests.swift */; };
+		F585810121C77B51009B3283 /* XuyongkangDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58580FE21C77B51009B3283 /* XuyongkangDate.swift */; };
+		F585810221C77B51009B3283 /* XuyongkangTimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58580FF21C77B51009B3283 /* XuyongkangTimeInterval.swift */; };
+		F585810321C77B51009B3283 /* XuyongkangTimeStamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585810021C77B51009B3283 /* XuyongkangTimeStamp.swift */; };
+		F585810721C77BAF009B3283 /* ClassVideoHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F585810521C77BAF009B3283 /* ClassVideoHeaderView.xib */; };
+		F585810821C77BAF009B3283 /* ClassVideoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585810621C77BAF009B3283 /* ClassVideoHeaderView.swift */; };
+		F585810B21C77C2D009B3283 /* CourseHeaderCountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585810921C77C2D009B3283 /* CourseHeaderCountCell.swift */; };
+		F585810C21C77C2D009B3283 /* CourseHeaderCountCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F585810A21C77C2D009B3283 /* CourseHeaderCountCell.xib */; };
+		F585810E21C77C65009B3283 /* KeepModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585810D21C77C65009B3283 /* KeepModel.swift */; };
+		F585811121C77CE8009B3283 /* CourseHeaderReuseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F585810F21C77CE8009B3283 /* CourseHeaderReuseView.swift */; };
+		F585811221C77CE8009B3283 /* CourseHeaderReuseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F585811021C77CE8009B3283 /* CourseHeaderReuseView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		F58580E621C779D4009B3283 /* KeepViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeepViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F58580EA21C779D4009B3283 /* KeepViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepViewUITests.swift; sourceTree = "<group>"; };
 		F58580EC21C779D4009B3283 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58580FE21C77B51009B3283 /* XuyongkangDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XuyongkangDate.swift; sourceTree = "<group>"; };
+		F58580FF21C77B51009B3283 /* XuyongkangTimeInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XuyongkangTimeInterval.swift; sourceTree = "<group>"; };
+		F585810021C77B51009B3283 /* XuyongkangTimeStamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XuyongkangTimeStamp.swift; sourceTree = "<group>"; };
+		F585810521C77BAF009B3283 /* ClassVideoHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ClassVideoHeaderView.xib; sourceTree = "<group>"; };
+		F585810621C77BAF009B3283 /* ClassVideoHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassVideoHeaderView.swift; sourceTree = "<group>"; };
+		F585810921C77C2D009B3283 /* CourseHeaderCountCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseHeaderCountCell.swift; sourceTree = "<group>"; };
+		F585810A21C77C2D009B3283 /* CourseHeaderCountCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseHeaderCountCell.xib; sourceTree = "<group>"; };
+		F585810D21C77C65009B3283 /* KeepModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepModel.swift; sourceTree = "<group>"; };
+		F585810F21C77CE8009B3283 /* CourseHeaderReuseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseHeaderReuseView.swift; sourceTree = "<group>"; };
+		F585811021C77CE8009B3283 /* CourseHeaderReuseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseHeaderReuseView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +117,8 @@
 		F58580C921C779D2009B3283 /* KeepView */ = {
 			isa = PBXGroup;
 			children = (
+				F58580F821C77A09009B3283 /* Util */,
+				F585810421C77BAF009B3283 /* KeepView */,
 				F58580CA21C779D2009B3283 /* AppDelegate.swift */,
 				F58580CC21C779D2009B3283 /* ViewController.swift */,
 				F58580CE21C779D2009B3283 /* Main.storyboard */,
@@ -123,6 +145,38 @@
 				F58580EC21C779D4009B3283 /* Info.plist */,
 			);
 			path = KeepViewUITests;
+			sourceTree = "<group>";
+		};
+		F58580F821C77A09009B3283 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F58580FD21C77B51009B3283 /* Date */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		F58580FD21C77B51009B3283 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				F58580FE21C77B51009B3283 /* XuyongkangDate.swift */,
+				F58580FF21C77B51009B3283 /* XuyongkangTimeInterval.swift */,
+				F585810021C77B51009B3283 /* XuyongkangTimeStamp.swift */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		F585810421C77BAF009B3283 /* KeepView */ = {
+			isa = PBXGroup;
+			children = (
+				F585810F21C77CE8009B3283 /* CourseHeaderReuseView.swift */,
+				F585811021C77CE8009B3283 /* CourseHeaderReuseView.xib */,
+				F585810921C77C2D009B3283 /* CourseHeaderCountCell.swift */,
+				F585810A21C77C2D009B3283 /* CourseHeaderCountCell.xib */,
+				F585810521C77BAF009B3283 /* ClassVideoHeaderView.xib */,
+				F585810621C77BAF009B3283 /* ClassVideoHeaderView.swift */,
+				F585810D21C77C65009B3283 /* KeepModel.swift */,
+			);
+			path = KeepView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,7 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F58580D521C779D4009B3283 /* LaunchScreen.storyboard in Resources */,
+				F585810721C77BAF009B3283 /* ClassVideoHeaderView.xib in Resources */,
 				F58580D221C779D4009B3283 /* Assets.xcassets in Resources */,
+				F585811221C77CE8009B3283 /* CourseHeaderReuseView.xib in Resources */,
+				F585810C21C77C2D009B3283 /* CourseHeaderCountCell.xib in Resources */,
 				F58580D021C779D2009B3283 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +313,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F585810E21C77C65009B3283 /* KeepModel.swift in Sources */,
 				F58580CD21C779D2009B3283 /* ViewController.swift in Sources */,
+				F585810321C77B51009B3283 /* XuyongkangTimeStamp.swift in Sources */,
+				F585810821C77BAF009B3283 /* ClassVideoHeaderView.swift in Sources */,
+				F585810221C77B51009B3283 /* XuyongkangTimeInterval.swift in Sources */,
+				F585811121C77CE8009B3283 /* CourseHeaderReuseView.swift in Sources */,
 				F58580CB21C779D2009B3283 /* AppDelegate.swift in Sources */,
+				F585810121C77B51009B3283 /* XuyongkangDate.swift in Sources */,
+				F585810B21C77C2D009B3283 /* CourseHeaderCountCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
